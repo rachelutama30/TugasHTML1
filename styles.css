@@ -99,6 +99,7 @@ li a.active {
 
 img {
     border-radius: 50%;
+    /* float: left; */
     width: 250px;
     display: block;
     /* margin: center; */
@@ -124,7 +125,7 @@ h4 {
     width: 100%;
 }
 
-#konden td,
+#konten td,
 #konten th {
     border: 1px solid #ddd;
     padding: 8px;
@@ -200,6 +201,13 @@ input[type=submit]:hover {
 /* mengatur form dari tampilan background, padding, margin, dan sudut-sudut border */
 
 .container {
+    border-radius: 0px 0px 15px 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: auto;
+}
+
+.kontener {
     border-radius: 0px 0px 15px 15px;
     background-color: #f2f2f2;
     padding: 20px;
